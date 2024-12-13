@@ -1,0 +1,64 @@
+﻿ID,type,replicate,Condition_B12,Condition_TOD,Condition_Culture,Cells_on_Filter,Cell_Volume_um3
+Z-1,filter blank,A,NA,NA,NA,NA,NA
+Z-2,filter blank,B,NA,NA,NA,NA,NA
+Z-3,filter blank,C,NA,NA,NA,NA,NA
+Z-4,filter blank,A,plus_B12,Day,NA,NA,NA
+Z-5,filter blank,B,plus_B12,Day,NA,NA,NA
+Z-6,filter blank,C,plus_B12,Day,NA,NA,NA
+Z-7,filter blank,A,plus_B12,Night,NA,NA,NA
+Z-8,filter blank,B,plus_B12,Night,NA,NA,NA
+Z-9,filter blank,C,plus_B12,Night,NA,NA,NA
+Z-10,filter blank,A,minus_B12,Day,NA,NA,NA
+Z-11,filter blank,B,minus_B12,Day,NA,NA,NA
+Z-12,filter blank,C,minus_B12,Day,NA,NA,NA
+Z-13,filter blank,A,minus_B12,Night,NA,NA,NA
+Z-14,filter blank,B,minus_B12,Night,NA,NA,NA
+Z-15,filter blank,C,minus_B12,Night,NA,NA,NA
+Z-16,filter blank,A,NA,NA,NA,NA,NA
+Z-17,filter blank,B,NA,NA,NA,NA,NA
+Z-18,filter blank,C,NA,NA,NA,NA,NA
+Z-19,culture,A,plus_B12,Day,Culture,3660000,175
+Z-20,culture,B,plus_B12,Day,Culture,3620000,175
+Z-21,culture,C,plus_B12,Day,Culture,4040000,175
+Z-22,culture,A,plus_B12,Night,Culture,2840000,175
+Z-23,culture,B,plus_B12,Night,Culture,2740000,175
+Z-24,culture,C,plus_B12,Night,Culture,3120000,175
+Z-25,UCYN-A,A,plus_B12,Day,UCYN-A,8474000,15
+Z-26,UCYN-A,B,plus_B12,Day,UCYN-A,17385000,15
+Z-27,UCYN-A,C,plus_B12,Day,UCYN-A,9063000,15
+Z-28,UCYN-A,A,plus_B12,Night,UCYN-A,15513500,15
+Z-29,UCYN-A,B,plus_B12,Night,UCYN-A,14706000,15
+Z-30,UCYN-A,C,plus_B12,Night,UCYN-A,16444500,15
+Z-31,culture,A,minus_B12,Day,Culture,855000,175
+Z-32,culture,B,minus_B12,Day,Culture,945000,175
+Z-33,culture,C,minus_B12,Day,Culture,960000,175
+Z-34,culture,A,minus_B12,Night,Culture,690000,175
+Z-35,culture,B,minus_B12,Night,Culture,780000,175
+Z-36,culture,C,minus_B12,Night,Culture,855000,175
+Z-37,UCYN-A,A,minus_B12,Day,UCYN-A,8863500,15
+Z-38,UCYN-A,B,minus_B12,Day,UCYN-A,12958000,15
+Z-39,UCYN-A,C,minus_B12,Day,UCYN-A,9395500,15
+Z-40,UCYN-A,A,minus_B12,Night,UCYN-A,12407000,15
+Z-41,UCYN-A,B,minus_B12,Night,UCYN-A,9690000,15
+Z-42,UCYN-A,C,minus_B12,Night,UCYN-A,8654500,15
+Z-43,media blank,A,plus_B12,NA,NA,NA,NA
+Z-44,media blank,B,plus_B12,NA,NA,NA,NA
+Z-45,media blank,C,plus_B12,NA,NA,NA,NA
+Z-46,media blank,A,minus_B12,NA,NA,NA,NA
+Z-47,media blank,B,minus_B12,NA,NA,NA,NA
+Z-48,media blank,C,minus_B12,NA,NA,NA,NA
+Z-49,media blank,A,plus_B12,Day,NA,NA,NA
+Z-50,media blank,B,plus_B12,Day,NA,NA,NA
+Z-51,media blank,C,plus_B12,Day,NA,NA,NA
+Z-52,media blank,A,plus_B12,Night,NA,NA,NA
+Z-53,media blank,B,plus_B12,Night,NA,NA,NA
+Z-54,media blank,C,plus_B12,Night,NA,NA,NA
+Z-55,media blank,A,minus_B12,Day,NA,NA,NA
+Z-56,media blank,B,minus_B12,Day,NA,NA,NA
+Z-57,media blank,C,minus_B12,Day,NA,NA,NA
+Z-58,media blank,A,minus_B12,Night,NA,NA,NA
+Z-59,media blank,B,minus_B12,Night,NA,NA,NA
+Z-60,media blank,C,minus_B12,Night,NA,NA,NA
+Z-61,media blank,A,minus_B12,NA,NA,NA,NA
+Z-62,media blank,B,minus_B12,NA,NA,NA,NA
+Z-63,media blank,C,minus_B12,NA,NA,NA,NA
