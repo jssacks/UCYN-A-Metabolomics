@@ -36,6 +36,21 @@ vit.dat.info <- vit.dat %>%
 
 
 
+#________Write data into nice neat form for export______________________
+vit.dat.export <- vit.dat.info %>%
+  filter(Compound %in% c("DMB", "Me-B12", "Ado-B12", "OH-B12", "CN-B12", 
+                         "CN-Pseudocob", "OH-Pseudocob", "Me-Pseudocob", "Ado-Pseudocob")) %>%
+  select(Compound, SampID, ID, type, replicate, Condition_B12, Condition_TOD, Condition_Culture, 
+         Cells_on_Filter, Cell_Volume_um3, Smp_Biovolume_um3, Smp_Biovolume_L, Area, nM_in_vial, 
+         nmoles_in_vial, nmole_per_cell, nmole_per_biovolume_L, min.area.flag, blk.ratio.flag) %>%
+  rename("PeakArea" = Area)
+
+write_csv(vit.dat.export, file = "Intermediates/UCYNA_Vitamin_Data_121324.csv")
+
+
+
+#_________Visualize Data_________________
+
 ##Select data that was analyzed:
 b12.dmb.dat <- vit.dat.info %>%
   filter(Compound %in% c("DMB", "Me-B12", "Ado-B12", "OH-B12", "CN-B12"))

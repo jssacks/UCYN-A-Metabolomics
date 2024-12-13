@@ -104,7 +104,7 @@ vit.quant.dat <- vit.dat.qc %>%
 
 
 
-#_____ Quantify DMB separately using 1 point calibratin curve (response factor)
+#_____ Quantify DMB separately using 1 point calibration curve (response factor)
 dmb.dat <- vit.dat.qc %>%
   filter(Compound == "DMB") %>%
   mutate(slope = Area[SampID == "241121_Std_50nM_RP-Mix234_InH2O"]/50,
